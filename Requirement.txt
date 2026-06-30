@@ -1,0 +1,29 @@
+1 . TO copy this from python-june22 to your vscode
+    git clone url 
+
+2 . To add 
+    git add <filename>
+    git .  to change all 
+
+3. To commit 
+    git commit -m " message "
+
+4. To push 
+    git push origin main 
+    git push -u origin main/ if we do this from next time we only have to do git push 
+
+
+
+TO CHANGE BRANCH 
+To see in which branch you are in 
+    -git branch/ 
+
+To change name 
+    - git branch -m nameofbranchyouwanttokeep
+
+To activate environment Linux 
+    python3 -m venv nameofenv ususally .env venv
+    source nameofenv/bin/activate
+
+To install python notebook in your env 
+- pip install 
