@@ -1,4 +1,13 @@
-#for loop
+# A loop is used to execute a block of code repeatedly until a condition is met. 
+# Python mainly provides :
+# for loop : used when the number of iterations is known or when iterating over a sequence 
+# while loop : used when the number of iteration is not known and depends on a condition 
+
+#for loop :  A for looop is used to iterate over a sequence such as : 
+# List, tuple , string , dictionary , range 
+# syntax : for variable in sequence : 
+            # statement 
+
 for i in range(5):
     print("hello World",i)
     
