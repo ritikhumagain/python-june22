@@ -8,7 +8,8 @@
 # syntax : for variable in sequence : 
             # statement 
 
-for i in range(5):
+for i in range(5): # HERE in i one by one all element will go from range
+    
     print("hello World",i)
     
 print("--------"*5)
@@ -49,38 +50,39 @@ for i in range(10 ):
         continue
     print(i)
 
-a = "Hell0 world . iam python . "
-for i in a : 
-    if i (i != ". " ):
-        break
-    print(i , end = "")
+# a = "Hell0 world . iam python . "
+# for i in a : 
+#     if i (i != ". " ):
+#         break
+#     print(i , end = "")
 
 
 
 
-a = "Hell0 world . iam python . "
-for i in a : 
-    if i (i != ". " ):
-        break
-    print(i , end = "")
+# a = "Hell0 world . iam python . "
+# for i in a : 
+#     if i (i != ". " ):
+#         break
+#     print(i , end = "")
 
 
 
-a = "Hell0 world . iam python . "
-for i in a : 
-    if i (i != ". " ):
-        continue
-    print(i , end = "")
+# a = "Hell0 world . iam python . "
+# for i in a : 
+#     if i (i != ". " ):
+#         continue
+#     print(i , end = "")
 
 
+# while 
+# in while statement we have to first initiate the value 
+count = 1
+# now we have to make the condition upto where it will run in nepali we say kaile saama tah 
+while(count<= 5 ): 
+# we will move inside the code block 
+    print('hello world ', count)
+# there will be updation on the code so it will run finite amount of time we have to increate the count by 1 in each itteration 
+    count+=1 # this is know an iterator usually i j k 
 
+print("-------"*5)
 
-
-
-a = 0 
-while (a<5):
-    print("hello world")
-    a+= 1
-
-i = 1 
-x = int(input("Enter x = 2 "))
