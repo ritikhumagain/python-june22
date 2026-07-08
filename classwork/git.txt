@@ -1,0 +1,27 @@
+#first download git 
+#git --version
+#make acc in git hub - git hub is an repository
+make git.ignore file to ignore that file while push 
+
+# Git commond
+git init . -make .git hidden folder to work with
+git status - show which is untracked
+git add . -a/file name will  show it will add in  git
+git commit -m "message" 
+    here error may occur global conflict 
+    git config --global user.email "username email "
+    
+
+
+
+
+
+local
+Remote
+Remote url
+Local repo
+Remote repo
+
+ssh-repo 
+Public/Private Key
+gitignore
