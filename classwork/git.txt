@@ -10,8 +10,24 @@ git add . -a/file name will  show it will add in  git
 git commit -m "message" 
     here error may occur global conflict 
     git config --global user.email "username email "
+git push origin main 
+
+
+
+
+TO add the repo 
+repo clone :git remote add origin and ssh url from git
+see status: git remote -v
+
     
 
+
+About branch 
+git branch = main aauna sakcha
+current branch name change : git branch -M "branch name " 
+new branch = git branch "new branch name"
+delete branch = git branch -D "branch name "
+go to branch = git checkout "branch name" 
 
 
 
